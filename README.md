@@ -2,13 +2,28 @@
 
 Public beta builds. Wider testing before stable promotion.
 
-**Downloads:** [Releases](https://github.com/DQMining/DRQ-Miner-Beta/releases) — latest **v0.2.0**
+**Latest beta:** [v0.2.0](https://github.com/DQMining/DRQ-Miner-Beta/releases/tag/v0.2.0) (`V0.2.0`)
+
+**Downloads:** [Releases](https://github.com/DQMining/DRQ-Miner-Beta/releases)
 
 | Asset | Platform |
 |-------|----------|
 | `DRQMiner-win64.zip` | Windows x64 |
 | `drqminer-linux-x64.tar.gz` | Linux x64 |
 | `drqminer-linux-arm64-phone.tar.gz` | Android Userland (arm64) |
+
+## Supported algorithms
+
+Primary (DRQ focus):
+
+| Algorithm | Coin / network |
+|-----------|----------------|
+| `nm/1` | Cereblix Neuromorph |
+| `astrobwtv3/dero` | DERO AstroBWT v3 |
+| `verushash` | Verus (VRSC) |
+| `civiclight` | CivicLight / CivicNet |
+
+Also compiled: `ghostrider`, `rx/blockzero`, plus legacy `rx/0`, `kawpow`, `argon2/*`, `cn/*`. Confirm with `./drqminer -V`.
 
 ## Linux x64
 
